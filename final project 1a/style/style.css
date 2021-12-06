@@ -1,0 +1,271 @@
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+.header{
+  background-color: #F3C6BD;
+  padding: 30px;
+} 
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo > div:first-child{
+    margin-right: 15px;
+}
+.logo-bold{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #2B292D;
+}
+.logo-regular{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(43, 41, 45, 0.6);
+}
+.header-nav{
+   display: flex;
+   align-items: center;
+
+}
+.header-li{
+   display: inline-block;
+}
+.header-li:not(:last-child){
+   margin-right: 20px;
+}
+
+.header-li> a{
+   font-size: 18px;
+   line-height: 25px;
+   color: #2B292D;
+   text-decoration: none;
+}
+.header-li> a:hover{
+   font-weight: bold;
+}
+.header-nav>div{
+   margin-left: 75px;
+}
+.button{
+   border: none; 
+   font-size: 18px;
+   line-height: 13px;
+   padding: 17px 26px;
+   border-radius: 2px;
+   cursor: pointer;
+   background:rgb(41, 44, 196) ;
+   color:#FFFFFF ;
+  
+}
+.button:hover{
+   color:blue;
+   background:white;
+   transition:1s;
+}
+.p-section{
+   background: #F4F5F7;
+   padding: 77px;
+  
+}
+.p-container{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.text{
+   display: flex;
+   align-items: center;
+
+}
+
+.p-bold{
+ 
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 32px;
+   color: #2B292D;
+}
+.p-normal{
+   font-weight: normal;
+   font-size: 22px;
+   line-height: 32px;
+   color: #2B292D;
+}
+.lg{
+   display: flex;
+   justify-content: space-between;
+   padding: 49px;
+}
+.busy{
+   padding: 100px 0;
+
+}
+.busy-flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.text-mini{
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 34px;
+   margin-bottom: 25px;
+
+}
+.text-mini__blue{
+   color: #0189D1;
+}
+.title-inner{
+   font-weight: bold;
+   font-size: 56px;
+   line-height: 56px;
+   letter-spacing: -0.5px;
+   color: #2B292D;
+   max-width: 462px;
+   margin-bottom: 30px;
+}
+.text-inner{
+   font-size: 24px;
+   line-height: 34px;
+   max-width: 461px;
+   margin-bottom: 40px;
+}
+.info{
+   padding: 40px 0 100px;
+}
+.info-flex{
+   display: flex;
+   justify-content: space-between;
+}
+.info-p{
+   font-size: 18px;
+   line-height: 26px;
+   max-width: 360px;
+   margin-bottom: 10px;
+}
+.info-p > span{
+   font-weight: bold;
+}
+.info-link{
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 26px;
+   text-decoration: underline;
+   color: #3040C4;
+}
+
+
+.Ic{
+   background: #f2fdff;
+   padding: 84px;
+   text-align: center;
+}
+.title{
+   display: inline-block;
+   align-items: center;
+}
+.p1{
+   color: #2B292D;
+   font-size: 22px;
+   line-height: 34px;
+   font-weight: bold;
+}
+.p2{
+   font-size: 56px;
+   line-height: 56px;
+   font-weight: bold;
+   padding: 24px;
+}
+.p3{
+   font-size:24px;
+   line-height: 34px;
+   text-align: center;
+   max-width: 550px;
+   padding: 30px;
+   margin: 0 auto;
+}
+
+/* .button:last-of-type{
+   background: white;
+   color: #2B292D;
+   margin-left: 10px;
+} */
+
+.photo-grid{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   column-gap: 30px;
+   padding: 111px;
+   text-align: center;
+  
+}
+.ic1{
+   width: 180px;
+   height: 240px;
+   background: #FFFFFF;
+  }
+
+  .ic2{
+    width: 180px;
+    height: 240px;
+    background: #FFFFFF;
+   }
+   .ic3{
+    width: 180px;
+    height: 240px;
+    background: #FFFFFF;
+   }
+   .ic4{
+    width: 180px;
+    height: 240px;
+    background: #FFFFFF;
+   }
+.ALL-container{
+   display: block;
+   margin: 0 auto;
+   padding: 90px 0;
+  }
+
+.p-1{
+   font-weight: bold;
+   font-size: 56px;
+   line-height: 66px;
+  }
+
+.p-2{
+   font-size: 24px;
+   line-height: 34px;
+   margin: 26px auto;
+   max-width: 550px;
+}
+
+
+.photo-grid{
+   display: grid;
+   grid-template-columns: repeat(3 1fr);
+   grid-template-rows: repeat(3 1fr);
+   gap: 50px;
+   height: 50vh;
+}
+.ph{
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.ph:nth-child(3), .ph:nth-child(4){
+  grid-row: span 2;
+}
+
